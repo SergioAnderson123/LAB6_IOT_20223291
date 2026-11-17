@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema de la app: claro y azul, como la pantalla de referencia del laboratorio.
+         Sin ActionBar: cada pantalla trae su propia barra azul. -->
+    <style name="Base.Theme.LAB6_IOT_20223291" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/lab_azul</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/lab_azul_claro</item>
+        <item name="colorSecondary">@color/lab_azul</item>
+        <item name="android:statusBarColor">@color/lab_azul</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/lab_fondo</item>
+    </style>
+
+    <style name="Theme.LAB6_IOT_20223291" parent="Base.Theme.LAB6_IOT_20223291" />
+
+    <!-- Pantallas de FirebaseUI (correo, contraseña, registro) con los mismos colores (Clase 10, setTheme) -->
+    <style name="Theme.Lab6.Auth" parent="FirebaseUI.DefaultMaterialTheme">
+        <item name="colorPrimary">@color/lab_azul</item>
+        <item name="colorPrimaryDark">@color/lab_azul_oscuro</item>
+        <item name="colorAccent">@color/lab_azul</item>
+        <item name="colorSecondary">@color/lab_azul</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

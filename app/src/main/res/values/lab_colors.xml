@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lab_azul">#1F4FA6</color>
+    <color name="lab_azul_oscuro">#173B7D</color>
+    <color name="lab_azul_claro">#DCE6FB</color>
+    <color name="lab_fondo">#F4F5FA</color>
+    <color name="lab_texto">#1B1B1F</color>
+    <color name="lab_gris">#5F6368</color>
+    <color name="lab_borde">#E3E6EE</color>
+    <color name="lab_rojo">#C62828</color>
+
+    <!-- Etiquetas de tipo de actividad -->
+    <color name="chip_lab_fondo">#D5F1EA</color>
+    <color name="chip_lab_texto">#0F5F4F</color>
+    <color name="chip_teo_fondo">#DCE6FB</color>
+    <color name="chip_teo_texto">#1F3A8A</color>
+    <color name="chip_pra_fondo">#FCE2D3</color>
+    <color name="chip_pra_texto">#9A3C12</color>
+</resources>

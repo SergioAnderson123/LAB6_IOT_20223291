@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Horas de Estudio</string>
+
+    <!-- Tipos de actividad (se guardan tal cual en Firestore) -->
+    <string-array name="tipos">
+        <item>Teoría</item>
+        <item>Práctica</item>
+        <item>Laboratorio</item>
+    </string-array>
+</resources>

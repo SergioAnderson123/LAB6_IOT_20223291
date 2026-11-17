@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pantalla de elección de FirebaseUI (AuthMethodPickerLayout, Clase 10).
+     FirebaseUI busca los botones por id (btnAuthEmail, btnAuthGoogle) y les asigna su acción. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Logo de Horas de Estudio"
+        android:src="@drawable/ic_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Registro de Horas de Estudio"
+        android:textColor="@color/lab_texto"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="Inicia sesión o crea tu cuenta para continuar"
+        android:textColor="@color/lab_gris"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAuthEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="36dp"
+        android:text="Continuar con correo"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:backgroundTint="@color/lab_azul"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAuthGoogle"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="Continuar con Google"
+        android:textAllCaps="false"
+        android:textColor="@color/lab_azul"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="@color/lab_azul" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Si es tu primera vez, te pediremos tu nombre y una contraseña. Si la olvidaste, podrás recuperarla desde la misma pantalla."
+        android:textColor="@color/lab_gris"
+        android:textSize="12sp" />
+</LinearLayout>
